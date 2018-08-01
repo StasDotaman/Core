@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Tests execution" parallel="tests" thread-count="1">
+<suite name="Tests execution" parallel="tests" thread-count="3">
     <test name="GoogleFindTest">
         <classes>
             <class name="GoogleLandingPageTests">
                 <methods>
-                <include name="findSomething"/>
+                    <include name="findSomething"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="StackOverFlow">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="stackOverFlowTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="PriceNavigatorTest">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest"/>
                 </methods>
             </class>
         </classes>

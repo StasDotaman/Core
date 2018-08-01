@@ -1,0 +1,3 @@
+[submodule "testModule"]
+	path = testModule
+	url = https://github.com/StasDotaman/Test.git

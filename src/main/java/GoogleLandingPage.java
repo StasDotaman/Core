@@ -7,7 +7,7 @@ public class GoogleLandingPage extends BasePage {
     @FindBy(xpath = ".//*[@id='lst-ib']")
     WebElement findBar;
 
-    @FindBy(xpath = "//input[@value='Поиск в Google']")
+    @FindBy(xpath = "//center/input[@value='Поиск в Google']")
     WebElement findButton;
 
     public GoogleLandingPage(WebDriver driver) {
@@ -15,7 +15,6 @@ public class GoogleLandingPage extends BasePage {
     }
 
     public void findSomething(String searchQuery) {
-        findBar.sendKeys(searchQuery);
         findButton.click();
     }
 }

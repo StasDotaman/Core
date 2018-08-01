@@ -24,7 +24,6 @@ public class ProjectWebDriver {
         return new ChromeDriver();
     }
 
-
     public static WebDriver createWebDriverInstance() {
         driver.set(createChromeDriver());
         driver.get().manage().timeouts().implicitlyWait(30L, TimeUnit.SECONDS);
