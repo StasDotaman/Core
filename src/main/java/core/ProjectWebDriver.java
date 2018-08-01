@@ -15,7 +15,7 @@ public class ProjectWebDriver {
         return new ChromeDriver();
     });
 
-    public WebDriver getDriver() {
+    public static WebDriver getDriver() {
         return driver.get();
     }
 

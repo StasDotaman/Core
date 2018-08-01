@@ -28,4 +28,67 @@
             </class>
         </classes>
     </test>
+    <test name="PriceNavigatorTest1">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="PriceNavigatorTest2">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="PriceNavigatorTest3">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="PriceNavigatorTest4">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest4"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="PriceNavigatorTest5">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest5"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="PriceNavigatorTest6">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest6"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="PriceNavigatorTest7">
+        <classes>
+            <class name="TestClass">
+                <methods>
+                    <include name="pnTest7"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>
